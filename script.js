@@ -1,7 +1,7 @@
 const translateButtonEl = document.querySelector("#translate-button");
 const inputEl = document.querySelector("#translate-input");
 const outputEl = document.querySelector("#translate-output");
-const SERVER_URL = "http://api.funtranslations.com/translate/minion.json"
+const SERVER_URL = "https://api.funtranslations.com/translate/minion.json"
 
 translateButtonEl.addEventListener("click", function btnHandler() {
   const inputText = inputEl.value;
